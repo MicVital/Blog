@@ -23,7 +23,7 @@
   "require": {
     "php": ">=7.0.0",
     "composer/installers": "~1.0",
-    "micvital/core-module": "~1.0",
+    "micvital/core-module": "dev-master",
     "idavoll/media-module": "~3.0",
     "idavoll/tag-module": "~3.0",
     "doctrine/dbal": "^2.5"
