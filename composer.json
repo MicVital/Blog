@@ -1,5 +1,5 @@
 {
-  "name": "asgardcms/blog-module",
+  "name": "micvital/blog-module",
   "type": "asgard-module",
   "description": "A blog module for AsgardCMS.",
   "keywords": [
@@ -17,8 +17,8 @@
   ],
   "support": {
     "email": "support@asgardcms.com",
-    "issues": "https://github.com/AsgardCms/Blog/issues",
-    "source": "https://github.com/AsgardCms/Blog"
+    "issues": "https://github.com/MicVital/Blog/issues",
+    "source": "https://github.com/MicVital/Blog"
   },
   "require": {
     "php": ">=7.0.0",
