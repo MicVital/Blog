@@ -1,0 +1,42 @@
+url: https://github.com/AsgardCms/Blog
+versions:
+    "3.0.1@unreleased":
+        added:
+            - Read the sidebar position from configuration file, default to 15
+        changed:
+            - Removed usages of <code>URL::route()</code> in favor of <code>route()</code>
+        removed:
+            - Removing tag routes, controllers and permissions
+    "3.0.0":
+        added:
+            - AsgardCMS v3 support
+        changed:
+            - Tags are new set using the Tag module (BC)
+            - Allow the latest posts widget to be included on its own
+            - Move blog sidebar link under pages
+        removed:
+            - Remove all old blog tag mentions
+    "2.2.0":
+        changed:
+            - Register the blog sidebar via event handler
+    "2.1.0":
+        added:
+            - Creating new hook when a post is creating
+            - Creating new hook when a post is updating
+            - Adding new <code>PostContentIsRendering</code> hook
+            - Moving translations from Translation module back to Block
+        changed:
+            - Using new <code>@editor</code> blade directive for wysiwyg
+    "2.0":
+        added:
+            - Laravel 5.4 compatibility
+            - API endpoints to manage Blog Categories
+        changed:
+            - Using new more flexible way of handle permissions via middleware
+            - Removing api resource controller to manual route definition
+            - Adding api protection via api tokens
+            - Adding method to get the thumbnail attribute on the <code>Post</code> entity
+            - Using the new blade directives for the media on blog posts
+        removed:
+            - Removing laracasts/flash dependency
+            - Requiring selectize manually in create/edit views. Now loaded by default.
